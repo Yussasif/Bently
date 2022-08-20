@@ -1,0 +1,1 @@
+This repository contains a landing page of a law firm and its responsive on all device.

@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.sectionOne{
+    background: url(images/bentley.png);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.navlink{
+    
+    list-style-type: none;
+}
+.navlist{
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+.bigText{
+    width: 706px;
+    height: 116px;
+    font: normal normal bold 55px/68px Poppins;
+    /* font-size: 48px;
+    line-height: 58px; */
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+.discover{
+    position: relative;
+    margin: auto;
+    font: normal normal normal ;
+}
+.sectionTwo{
+    margin-top: 100px;
+    height: 80vh;
+    width: 100%;
+    background-color: #ffffff
+}
+.sectionTwotop{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font: normal normal bold 18px/23px Raleway;
+    color: #3c3c3c;
+}   
+.sectionTwodown{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    
+}
+.sectionTwoLeft{
+    width: 40%;
+    height: 100%;
+    margin-left: 15%;
+    
+}
+.sectionTwoLeft > h1{
+    font: normal normal bolder 48px/58px Poppins;
+    margin-top: 150px;
+    color: #1e2e3e;
+    padding-left: 10px;
+    border-left: 2px solid #C59042;
+}
+.sectionTwoRight{
+    margin-top: 50px;
+}
+.sectionTwoRight > p{
+    position: relative;
+    left: -520px;
+    top: 60px;
+    font: normal normal bold 14px/17px Raleway;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    transform: rotate(-90deg);
+    text-align: center;
+
+}
+.sectionTwoRight > img{
+    position: relative;
+     width: 556px;
+    height: 646px;
+    
+    left: -220px;
+}
+
+.sectionThree{
+    height: 110vh;
+    background-color: #1e2e3e;
+}
+/*.sectionFour{
+    height: 200vh;
+    background-color: #ffffff;
+}
+.sectionFive{
+    height: 80vh;
+    background-color: #1e2e3e;
+}
+.sectionSix{
+    height: 110vh;
+    background-color: #ffffff;
+} */
+.footerContainer{
+    height: 50vh;
+    background-color: #1e2e3e;
+}
