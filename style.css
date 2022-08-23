@@ -52,21 +52,43 @@ letter-spacing: 0.03em;
 color: #C59042;
 
 }
-
-
-
-
-
-
 .navlink{
     
     list-style-type: none;
+    margin-left: 45%;
+    padding-top: 46px;
+
 }
 .navlist{
     float: left;
     text-decoration: none;
     color: white;
+    margin-right: 20px;
+
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.02em;
 }
+.contactUs{
+    
+}
+.contactUsbtn{
+    box-sizing: border-box;
+
+/* position: absolute; */
+width: 165px;
+height: 37px;
+margin-top: -10px; 
+background-color: transparent;
+color: white;
+max-width: 50%;
+
+border: 1.5px solid #C59042;
+}
+
 .bigText{
     width: 706px;
     height: 116px;
@@ -76,7 +98,7 @@ color: #C59042;
     margin: auto;
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 150px;
     max-width: 100% ;
 }
 .discover{
@@ -84,7 +106,7 @@ color: #C59042;
 width: 112px;
 height: 16px;
 /* left: 664px; */
-top: 390px;
+top: 240px;
 margin: auto;
 white-space: nowrap;
 font-family: 'DM Sans';
@@ -100,6 +122,10 @@ letter-spacing: 0.1em;
 /* BENTLEY WHITE */
 
 color: #FFFFFF;
+}
+.discover > a{
+    text-decoration: none;
+    color: inherit;
 }
 .sectionTwo{
     margin-top: 100px;
