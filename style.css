@@ -12,9 +12,6 @@
     height: 961px;
     color: white;
 }
-.logo{
-
-}
 .logo > h1{
     position: absolute;
 width: 154px;
@@ -71,9 +68,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: 18px;
 letter-spacing: 0.02em;
-}
-.contactUs{
-    
 }
 .contactUsbtn{
     box-sizing: border-box;
@@ -210,7 +204,45 @@ transform: rotate(-90deg);
 .sectionThree{
     /* height: 900px; */
     margin-top: 50px;
+    padding-top: 350px;
     background-color: #1e2e3e;
+    display: grid;
+    grid-template-areas:
+    'a a'
+    'b c';
+    gap: 2em;
+}
+.boxOne{
+    grid-area: a;
+    width: 100%;
+    text-align: center;
+   
+}
+/* H1 */
+.boxOne > h1{
+    width: 921px;
+    height: 116px;
+    margin: auto;
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+/* BENTLEY WHITE */
+
+color: #FFFFFF;
+}
+.boxTwo{
+    grid-area: b;
+    
+    background-color: #C59042;
+}
+.boxThree{
+    grid-area: c;
+    background-color: bisque;
 }
 
 
