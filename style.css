@@ -6,8 +6,10 @@
 }
 .sectionOne{
     background: url(images/bentley.png);
-    background-size: cover;
-    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 961px;
     color: white;
 }
 .navlink{
@@ -28,7 +30,8 @@
     margin: auto;
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 306px;
+    max-width: 100% ;
 }
 .discover{
     position: relative;
@@ -37,25 +40,29 @@
 }
 .sectionTwo{
     margin-top: 100px;
-    height: 80vh;
+    height: 700px;
     width: 100%;
     background-color: #ffffff
 }
 .sectionTwotop{
-    width: 40%;
+    /* width: 40%; */
+    width: 540px;
+    height: 180px;
     margin: auto;
     text-align: center;
     font: normal normal bold 18px/23px Raleway;
     color: #3c3c3c;
+    max-width: 100%;
 }   
 .sectionTwodown{
     display: flex;
     flex-wrap: wrap; 
     width: 100%;
+    max-width: 100%;
     
 }
 .sectionTwoLeft{
-    width: 40%;
+    width: 100%;
     height: 100%;
     margin-left: 15%;
     
@@ -68,6 +75,7 @@
     border-left: 2px solid #C59042;
 }
 .sectionTwoRight{
+    width: 100%;
     margin-top: 50px;
 }
 .sectionTwoRight > p{
@@ -82,11 +90,12 @@
 
 }
 .sectionTwoRight > img{
-    position: relative;
-     width: 556px;
+    position: absolute;
+    width: 556px;
     height: 646px;
-    
-    left: -220px;
+    left: 664px;
+    top: 930px;
+    max-width: 100%;
 }
 
 .sectionThree{
