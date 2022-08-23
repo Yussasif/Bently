@@ -12,6 +12,52 @@
     height: 961px;
     color: white;
 }
+.logo{
+
+}
+.logo > h1{
+    position: absolute;
+width: 154px;
+height: 44px;
+left: 15%;
+top: 29px;
+
+font-family: 'Criteria CF';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+.logo > p{
+    position: absolute;
+width: 60px;
+height: 16px;
+left: 15%;
+top: 66px;
+white-space: nowrap;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+/* BENTLEY PRIMARY */
+
+color: #C59042;
+
+}
+
+
+
+
+
+
 .navlink{
     
     list-style-type: none;
@@ -30,13 +76,30 @@
     margin: auto;
     text-align: center;
     position: relative;
-    top: 306px;
+    top: 200px;
     max-width: 100% ;
 }
 .discover{
     position: relative;
-    margin: auto;
-    font: normal normal normal ;
+width: 112px;
+height: 16px;
+/* left: 664px; */
+top: 390px;
+margin: auto;
+white-space: nowrap;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+/* BENTLEY WHITE */
+
+color: #FFFFFF;
 }
 .sectionTwo{
     margin-top: 100px;
@@ -114,7 +177,7 @@
     height: 110vh;
     background-color: #ffffff;
 } */
-.footerContainer{
+/* .footerContainer{
     height: 50vh;
     background-color: #1e2e3e;
-}
+} */
