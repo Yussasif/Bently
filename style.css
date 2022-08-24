@@ -206,14 +206,8 @@ transform: rotate(-90deg);
     margin-top: 50px;
     padding-top: 350px;
     background-color: #1e2e3e;
-    display: grid;
-    grid-template-areas:
-    'a a'
-    'b c';
-    gap: 2em;
 }
 .boxOne{
-    grid-area: a;
     width: 100%;
     text-align: center;
    
@@ -235,15 +229,44 @@ transform: rotate(-90deg);
 
 color: #FFFFFF;
 }
+.boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    height: 500px;
+}
 .boxTwo{
-    grid-area: b;
+    width: 50%;
     
-    background-color: #C59042;
+    
+    padding-left: 20%;
+    margin-top: 20px;
+}
+.boxTwo > p{
+    width: 474px;
+    margin-top: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+
+/* BENTLEY WHITE */
+
+    color: #FFFFFF;
+
 }
 .boxThree{
-    grid-area: c;
-    background-color: bisque;
+    width: 50%;
+    background-image: url(images/Rectangle6.png);
+    background-size: cover;
 }
+/* .boxThree > img{
+    min-height: 100%;
+    width: auto;
+} */
 
 
 
