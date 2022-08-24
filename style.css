@@ -263,19 +263,39 @@ color: #FFFFFF;
     background-image: url(images/Rectangle6.png);
     background-size: cover;
 }
-/* .boxThree > img{
-    min-height: 100%;
-    width: auto;
-} */
-
-
-
-
-
-/*.sectionFour{
-    height: 200vh;
-    background-color: #ffffff;
+.sectionFour{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 568px;
+    margin-top: 10vh;
 }
+.sectionFourLeft{
+    width: 50%;
+}
+.threeImg{
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    top: 2639px;
+}
+.One{
+    left: -2vw;
+    
+}
+.Two{
+    left: 19vw;
+}
+.Three{
+    left: 40vw;
+}
+.sectionFourRight{
+    width: 50%;
+    background-color: #C59042;
+}
+
+
+/*
 .sectionFive{
     height: 80vh;
     background-color: #1e2e3e;
